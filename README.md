@@ -10,11 +10,11 @@ A full walkthrough of the models, the method and the results is in [docs/REPORT.
 
 | File | What it does |
 |---|---|
-| `controller with rootlocus.m` | Closes the loop around a PI-compensated traction-motor speed loop, plots its response to a 4 V speed-command step, then its response to a unit ramp together with the ramp error. |
-| `controller with frequency.m` | Bode plot of the same PI-compensated traction-motor speed loop, followed by the 4 V step response of the closed loop. |
+| `controller_with_rootlocus.m` | Closes the loop around a PI-compensated traction-motor speed loop, plots its response to a 4 V speed-command step, then its response to a unit ramp together with the ramp error. |
+| `controller_with_frequency.m` | Bode plot of the same PI-compensated traction-motor speed loop, followed by the 4 V step response of the closed loop. |
 | `rootlocus.m` | Root locus of a third-order traction-motor speed loop with a 10 % overshoot line. It stops at `rlocfind` so you can click a gain on the locus, then plots the closed-loop step response for that gain. |
-| `frequency responce.m` | Bode plot and step response for the same third-order traction-motor speed loop with the gain fixed at 0.78. |
-| `controller with linear feedback.m` | State-space model with a state-feedback gain chosen by assigning closed-loop eigenvectors. Prints the closed-loop matrices and plots the step response. |
+| `frequency_responce.m` | Bode plot and step response for the same third-order traction-motor speed loop with the gain fixed at 0.78. |
+| `controller_with_linear_feedback.m` | State-space model with a state-feedback gain chosen by assigning closed-loop eigenvectors. Prints the closed-loop matrices and plots the step response. |
 | `simulation.slx` | Simulink model with two nested PI loops around a simplified hybrid-vehicle traction-motor speed plant, driven by a 4 V speed-command step. |
 | `docs/REPORT.md` | The report. |
 | `docs/make_figures.py` | Python script that regenerates every figure and number in the report. |
