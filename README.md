@@ -60,3 +60,5 @@ These numbers come from `docs/make_figures.py`, which reproduces the scripts in 
 ## Author
 
 Hossein Mosaffa, Modern Control Course Project at Amirkabir University of Technology, Faculty of Electrical Engineering.
+
+[Hossein Mosaffa's personal website](https://hossein-mosaffa.github.io)
